@@ -175,7 +175,7 @@ function Cell(i, j) {
       if (this.visited) {
         noStroke();
         
-        fill(250, 0, 20, 80);
+        fill(0, 255, 20, 80);
         rect(x, y, w, w);
       }
     }
